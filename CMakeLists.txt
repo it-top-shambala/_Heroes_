@@ -3,4 +3,4 @@ project(Heroes)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Heroes main.cpp lib/ConfigGame.h lib/Hero.h lib/Armor.h)
+add_executable(Heroes main.cpp lib/ConfigGame.h lib/Hero.h lib/Armor.h lib/armors/LightArmor.h lib/armors/HeavyArmor.h)
