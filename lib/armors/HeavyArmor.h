@@ -6,7 +6,7 @@
 
 class HeavyArmor : public Armor {
 public:
-    HeavyArmor(const string &name) : Armor(name, ConfigGame::GetDefenceHeavyArmor()) {}
+    HeavyArmor() : Armor("HeavyArmor", ConfigGame::GetDefenceHeavyArmor()) {}
 };
 
 

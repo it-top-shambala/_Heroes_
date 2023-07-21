@@ -6,7 +6,7 @@
 
 class LightArmor : public Armor {
 public:
-    LightArmor(const string &name) : Armor(name, ConfigGame::GetDefenceLightArmor()) {}
+    LightArmor() : Armor("LightArmor", ConfigGame::GetDefenceLightArmor()) {}
 };
 
 
