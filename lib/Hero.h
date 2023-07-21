@@ -36,7 +36,7 @@ public:
         return _health == 0;
     }
 
-    void setArmor(Armor *armor) {
+    void SetArmor(Armor *armor) {
         _armor = armor->Clone();
     }
 
