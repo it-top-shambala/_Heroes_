@@ -1,0 +1,78 @@
+@startuml
+
+class ConfigGame {
+- {static} defenceLightArmor : int
+- {static} defenceHeavyArmor : int
+
+- {static} healthZerg : int
+- {static} damageZerg : int
+
+- {static} healthProtos : int
+- {static} damageProtos : int
+
++ {static} Init() : void
+
++ {static} GetDefenceLightArmor() : int
++ {static} GetDefenceHeavyArmor() : int
+
++ {static} GetHealthZerg() : int
++ {static} GetDamageZerg() : int
+
++ {static} GetHealthProtos() : int
++ {static} GetDamageProtos() : int
+}
+
+abstract class Armor {
+- name : string
+- defence : int
+
+# Armor(name : string, defence : int)
+
++ GetName() : string
++ GetDefence() : int
+}
+
+ConfigGame <-- LightArmor
+Armor <|-- LightArmor
+class LightArmor {
++ LightArmor(name : string)
+}
+
+ConfigGame <-- HeavyArmor
+Armor <|-- HeavyArmor
+class HeavyArmor {
++ HeavyArmor(name : string)
+}
+
+Armor <--* Hero
+abstract class Hero {
+- name : string
+- health : int
+- damage : int
+- armor : Armor
+
+# Hero(name : string, health : int, damage : int)
+
++ GetName() : string
++ GetHealth() : int
++ GetDamage() : int
++ IsDead() : bool
+
++ SetArmor(armor : Armor) : void
+
++ Attack(hero : Hero) : void
+}
+
+ConfigGame <-- Zerg
+Hero <|-- Zerg
+class Zerg {
++ Zerg(name : string)
+}
+
+ConfigGame <-- Protos
+Hero <|-- Protos
+class Protos {
++ Protos(name : string)
+}
+
+@enduml
