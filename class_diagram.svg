@@ -258,9 +258,9 @@
             <text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacing" textLength="126.4"
                   x="23.2" y="600.9453">Attack(hero : Hero) : void
             </text>
-        </g><!--class Zerg-->
+        </g><!--class ZergT-->
         <g id="elem_Zerg">
-            <rect codeLine="67" fill="#F1F1F1" height="53.2969" id="Zerg" rx="2" ry="2"
+            <rect codeLine="67" fill="#F1F1F1" height="53.2969" id="ZergT" rx="2" ry="2"
                   style="stroke:#181818;stroke-width:0.4000000000000001;" width="117.6" x="547.6" y="655.2"/>
             <ellipse cx="591.4" cy="668" fill="#ADD1B2" rx="8.8" ry="8.8"
                      style="stroke:#181818;stroke-width:0.8000000000000002;"/>
@@ -268,18 +268,18 @@
                 d="M593.6125,664.7 Q593.7375,664.525 593.8875,664.4375 Q594.0375,664.35 594.2125,664.35 Q594.5125,664.35 594.7,664.5625 Q594.8875,664.7625 594.8875,665.25 L594.8875,666.4125 Q594.8875,666.9 594.7,667.1125 Q594.5125,667.325 594.2125,667.325 Q593.9375,667.325 593.775,667.1625 Q593.6125,667.0125 593.525,666.6 Q593.4875,666.3125 593.3375,666.1625 Q593.075,665.8625 592.5875,665.6875 Q592.1,665.5125 591.6,665.5125 Q590.9875,665.5125 590.475,665.775 Q589.975,666.0375 589.575,666.6375 Q589.1875,667.2375 589.1875,668.0625 L589.1875,668.9375 Q589.1875,669.925 589.9,670.5875 Q590.6125,671.2375 591.8875,671.2375 Q592.6375,671.2375 593.1625,671.0375 Q593.475,670.9125 593.8125,670.5625 Q594.025,670.35 594.1375,670.2875 Q594.2625,670.225 594.425,670.225 Q594.6875,670.225 594.8875,670.4375 Q595.1,670.6375 595.1,670.9125 Q595.1,671.1875 594.825,671.5125 Q594.425,671.975 593.7875,672.2375 Q592.925,672.6 591.8875,672.6 Q590.675,672.6 589.7125,672.1 Q588.925,671.7 588.375,670.85 Q587.825,669.9875 587.825,668.9625 L587.825,668.0375 Q587.825,666.975 588.3125,666.0625 Q588.8125,665.1375 589.6875,664.65 Q590.5625,664.15 591.55,664.15 Q592.1375,664.15 592.65,664.2875 Q593.175,664.4125 593.6125,664.7 Z "
                 fill="#000000"/>
             <text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacing" textLength="23.2"
-                  x="607.8" y="672.6375">Zerg
+                  x="607.8" y="672.6375">ZergT
             </text>
             <line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="548.4" x2="664.4" y1="680.8" y2="680.8"/>
             <line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="548.4" x2="664.4" y1="687.2" y2="687.2"/>
             <ellipse cx="556.4" cy="699.0484" fill="#84BE84" rx="2.4" ry="2.4"
                      style="stroke:#038048;stroke-width:0.8000000000000002;"/>
             <text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacing" textLength="96.8"
-                  x="563.6" y="702.4859">Zerg(name : string)
+                  x="563.6" y="702.4859">ZergT(name : string)
             </text>
-        </g><!--class Protos-->
+        </g><!--class ProtosT-->
         <g id="elem_Protos">
-            <rect codeLine="73" fill="#F1F1F1" height="53.2969" id="Protos" rx="2" ry="2"
+            <rect codeLine="73" fill="#F1F1F1" height="53.2969" id="ProtosT" rx="2" ry="2"
                   style="stroke:#181818;stroke-width:0.4000000000000001;" width="127.2" x="283.6" y="655.2"/>
             <ellipse cx="327.4" cy="668" fill="#ADD1B2" rx="8.8" ry="8.8"
                      style="stroke:#181818;stroke-width:0.8000000000000002;"/>
@@ -287,14 +287,14 @@
                 d="M329.6125,664.7 Q329.7375,664.525 329.8875,664.4375 Q330.0375,664.35 330.2125,664.35 Q330.5125,664.35 330.7,664.5625 Q330.8875,664.7625 330.8875,665.25 L330.8875,666.4125 Q330.8875,666.9 330.7,667.1125 Q330.5125,667.325 330.2125,667.325 Q329.9375,667.325 329.775,667.1625 Q329.6125,667.0125 329.525,666.6 Q329.4875,666.3125 329.3375,666.1625 Q329.075,665.8625 328.5875,665.6875 Q328.1,665.5125 327.6,665.5125 Q326.9875,665.5125 326.475,665.775 Q325.975,666.0375 325.575,666.6375 Q325.1875,667.2375 325.1875,668.0625 L325.1875,668.9375 Q325.1875,669.925 325.9,670.5875 Q326.6125,671.2375 327.8875,671.2375 Q328.6375,671.2375 329.1625,671.0375 Q329.475,670.9125 329.8125,670.5625 Q330.025,670.35 330.1375,670.2875 Q330.2625,670.225 330.425,670.225 Q330.6875,670.225 330.8875,670.4375 Q331.1,670.6375 331.1,670.9125 Q331.1,671.1875 330.825,671.5125 Q330.425,671.975 329.7875,672.2375 Q328.925,672.6 327.8875,672.6 Q326.675,672.6 325.7125,672.1 Q324.925,671.7 324.375,670.85 Q323.825,669.9875 323.825,668.9625 L323.825,668.0375 Q323.825,666.975 324.3125,666.0625 Q324.8125,665.1375 325.6875,664.65 Q326.5625,664.15 327.55,664.15 Q328.1375,664.15 328.65,664.2875 Q329.175,664.4125 329.6125,664.7 Z "
                 fill="#000000"/>
             <text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacing" textLength="32.8"
-                  x="343.8" y="672.6375">Protos
+                  x="343.8" y="672.6375">ProtosT
             </text>
             <line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="284.4" x2="410" y1="680.8" y2="680.8"/>
             <line style="stroke:#181818;stroke-width:0.4000000000000001;" x1="284.4" x2="410" y1="687.2" y2="687.2"/>
             <ellipse cx="292.4" cy="699.0484" fill="#84BE84" rx="2.4" ry="2.4"
                      style="stroke:#038048;stroke-width:0.8000000000000002;"/>
             <text fill="#000000" font-family="sans-serif" font-size="11.2" lengthAdjust="spacing" textLength="106.4"
-                  x="299.6" y="702.4859">Protos(name : string)
+                  x="299.6" y="702.4859">ProtosT(name : string)
             </text>
         </g><!--reverse link ConfigGame to LightArmor-->
         <g id="link_ConfigGame_LightArmor">
@@ -336,33 +336,33 @@
             <polygon fill="#181818"
                      points="217.688,359.928,223.0764,357.8676,223.2469,352.1012,217.8585,354.1616,217.688,359.928"
                      style="stroke:#181818;stroke-width:0.8000000000000002;"/>
-        </g><!--reverse link ConfigGame to Zerg-->
+        </g><!--reverse link ConfigGame to ZergT-->
         <g id="link_ConfigGame_Zerg">
             <path codeLine="65"
                   d="M676.04,316.008 C701.368,404.272 716.944,515.016 679.2,607.2 C671.552,625.88 656.664,642.376 642.328,655.032 "
-                  fill="none" id="ConfigGame-backto-Zerg" style="stroke:#181818;stroke-width:0.8000000000000002;"/>
+                  fill="none" id="ConfigGame-backto-ZergT" style="stroke:#181818;stroke-width:0.8000000000000002;"/>
             <polygon fill="#181818"
                      points="674.904,312.088,673.8418,319.8952,676.0209,315.9289,679.9872,318.1081,674.904,312.088"
                      style="stroke:#181818;stroke-width:0.8000000000000002;"/>
-        </g><!--reverse link Hero to Zerg-->
+        </g><!--reverse link Hero to ZergT-->
         <g id="link_Hero_Zerg">
             <path codeLine="66"
                   d="M267.776,607.088 C267.848,607.12 267.928,607.16 268,607.2 C316.208,631.808 463.92,658.392 547.384,672.016 "
-                  fill="none" id="Hero-backto-Zerg" style="stroke:#181818;stroke-width:0.8000000000000002;"/>
+                  fill="none" id="Hero-backto-ZergT" style="stroke:#181818;stroke-width:0.8000000000000002;"/>
             <polygon fill="none" points="265.048,611.976,253.792,599.304,270.496,602.192,265.048,611.976"
                      style="stroke:#181818;stroke-width:0.8000000000000002;"/>
-        </g><!--reverse link ConfigGame to Protos-->
+        </g><!--reverse link ConfigGame to ProtosT-->
         <g id="link_ConfigGame_Protos">
             <path codeLine="71"
                   d="M640.256,316.44 C654.728,426.984 663.776,562.912 629.6,607.2 C603.088,641.56 485.672,663.064 410.84,673.536 "
-                  fill="none" id="ConfigGame-backto-Protos" style="stroke:#181818;stroke-width:0.8000000000000002;"/>
+                  fill="none" id="ConfigGame-backto-ProtosT" style="stroke:#181818;stroke-width:0.8000000000000002;"/>
             <polygon fill="#181818"
                      points="639.688,312.184,637.4619,319.7421,640.2137,316.1493,643.8064,318.901,639.688,312.184"
                      style="stroke:#181818;stroke-width:0.8000000000000002;"/>
-        </g><!--reverse link Hero to Protos-->
+        </g><!--reverse link Hero to ProtosT-->
         <g id="link_Hero_Protos">
             <path codeLine="72" d="M265.544,607.08 C285.472,625.168 304.12,642.088 318.544,655.184 " fill="none"
-                  id="Hero-backto-Protos" style="stroke:#181818;stroke-width:0.8000000000000002;"/>
+                  id="Hero-backto-ProtosT" style="stroke:#181818;stroke-width:0.8000000000000002;"/>
             <polygon fill="none" points="261.768,611.208,253.688,596.312,269.296,602.92,261.768,611.208"
                      style="stroke:#181818;stroke-width:0.8000000000000002;"/>
         </g><!--SRC=[XLFBQiCm4BpxAmIzs4ty0oQNq40IAANGMs-AhTYYjWIo21Gt_rv9gyehst6FsXtDFcQsR6dVanSfhhm-qewH8Sd9q6kgUNad5RioKR9NNZTwhpgfI46uq0kG4wEtRmp1c8RHLZUVJDKB_sb7QuPoyu_lIchPF_eQPPFDc3uBhjFC96wILr7coFHXEfb3Mef5t3XUm4s0fp3Z8wOmw3e5pBDACe7SauHUUgregKdfz0GXh9J2QbeGa-MYDcylrry3Jm1D8zWsHcMsJrFxpM1SJK-sGVl1lI0pxVASZ2jEeAtTJno5bf771aEDX8bwonOgZEBW2YWA5P15RGKawRo2vydpPuDJShfV6rjSBnWsM1KS6fxKtmTqPPPlUQQxnnJRY65L230Fiarm2ugT-mEZbGjSf6mjtmVpQuwQmsUprvgMNsbZPovSoo4xryBwEt7hSIAu9-pCdRXTl3k1VqK5ZoCg7m0oV_IMpX_3ZF0N]-->

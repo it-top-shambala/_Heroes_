@@ -11,6 +11,8 @@ int main() {
     Hero* hero;
     Hero* enemy;
 
+    ConfigGame::Init();
+
     HeroBuilder* heroBuilder;
 
     HeroType heroType;
